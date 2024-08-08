@@ -1,0 +1,63 @@
+/* best-deal-section  */
+
+.best-deal{
+    margin: 0;
+    width: 100%;
+ }
+
+ .container-day {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-image:url(assets/images/arrangement-different-traveling-elements.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #f3f4f6;
+    height: 480px;
+}
+.text-section {
+    flex: 1;
+    padding-left: 900px;
+}
+.text-section h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+.text-section p {
+    font-size: 25px;
+    margin: 10px 0;
+}
+.text-section .highlight {
+    color: rgb(49, 226, 226);
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.text-section .price {
+    font-size: 36px;
+    color: rgb(49, 226, 226);
+    font-weight: bold;
+}
+.countdown {
+    display: flex;
+    margin-top: 20px;
+}
+.countdown div {
+    text-align: center;
+    width: 70px;
+    margin-left: 0;
+    margin-right: 40px;
+    border-left: 1px solid lightgray;
+    padding-left: 15px;
+}
+.countdown div p {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.countdown div span {
+    font-size: 15px;
+    color: #888;
+    font-weight: 600;
+}
